@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'RobotoMono-VariableFont_wght';
+    src: url('../fontes/RobotoMono-VariableFont_wght');
+} 
+* {
+    font-family:'RobotoMono-VariableFont_wght' ;
+}
+body {
+    display: flex;
+    height: 100hv;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#fff;
+    background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 73));
+}
+.Calculator{
+    height:  320px;
+    width: 325px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+}
